@@ -3,7 +3,6 @@ const Doctor = require("../models/doctor")
 //Format of token
 //Authorizaiton : Bearer <access_token>
 
-
 //verify token
 exports.verifyToken = async (req, res, next) => {
 
@@ -31,7 +30,6 @@ exports.verifyToken = async (req, res, next) => {
      
       req.doctor = await Doctor.findById(decoded.id);
       next();
-
 
     } catch (err) {
       console.log(err);
