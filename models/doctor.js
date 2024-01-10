@@ -28,8 +28,6 @@ doctorSchema.pre("save", async function() {
 
 });
 
-
-
 // Sign JWT and return
 doctorSchema.methods.getSignedJwtToken = function() {
   return jwt.sign({ id: this._id }, 'secret', {
