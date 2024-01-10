@@ -1,7 +1,6 @@
 const Doctor=require('../../../models/doctor');
 const jwt=require('jsonwebtoken');
 
-
 //Register the doctor in app
 module.exports.register = async function(req,res) {
   try {
