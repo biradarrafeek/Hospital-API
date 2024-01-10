@@ -48,5 +48,3 @@ We will use postman to check the api is working or not,So download postman on yo
 6. Use this **http://localhost:5000/api/v1/patients/62c31cc86a84003324d04cb5/all_reports** to get all the reports.
 
 ![image](https://user-images.githubusercontent.com/70103005/177216169-b17c31c4-6219-460a-a93f-b77588d6b9b6.png)
-
-
