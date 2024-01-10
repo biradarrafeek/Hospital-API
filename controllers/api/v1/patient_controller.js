@@ -5,7 +5,6 @@ exports.register= async (req, res) => {
 
   const doctor =req.doctor._id;      // get the doctor id
 
- 
     try {
       const { name, phone } = req.body; //destructure the name and phone from body
       let patient;
@@ -21,7 +20,6 @@ exports.register= async (req, res) => {
         });
       }
 
-      
       patient = await Patient.create({
         name,
         phone,
