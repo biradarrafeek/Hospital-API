@@ -6,7 +6,6 @@ const reportSchema = new mongoose.Schema({
       type: mongoose.Schema.Types.ObjectId,
       ref: 'Doctor'
   },
-
   patient: {
       type: mongoose.Schema.Types.ObjectId,
       ref: 'Patient'
